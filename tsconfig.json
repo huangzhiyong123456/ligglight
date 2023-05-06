@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "outDir": "./build/",
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "es5",
+      "lib": ["ES2016","DOM"],
+      "jsx": "react",
+      "allowJs": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+  },
+  "exclude": [
+      "node_modules",
+      "build",
+  ]
+}
